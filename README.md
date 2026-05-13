@@ -78,7 +78,7 @@ The goal is to make the site feel like a technical artifact, not only a personal
 ```text
 .
 +-- public/
-|   +-- CV-Kenneth_flororita.pdf
+|   +-- Kenneth-Flororita-CV.pdf
 |   +-- kenneth-flororita-image.png
 |   +-- workflow-architecture.png
 |   +-- ai-campaign-generator-architecture.svg

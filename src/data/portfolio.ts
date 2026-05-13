@@ -48,7 +48,7 @@ export const profile = {
   email: "kennethflororita@gmail.com",
   github: "https://github.com/Zen1chir0",
   linkedin: "https://www.linkedin.com/in/kenneth-flororita-36b870331",
-  cv: "/CV-Kenneth_flororita.pdf",
+  cv: "/Kenneth-Flororita-CV.pdf",
   image: "/kenneth-flororita-image.png",
   eyebrow: "Workflow Architect / AI Agents / API Orchestration",
   headline: "AI Workflows That Scale",

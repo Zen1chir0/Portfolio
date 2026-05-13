@@ -14,7 +14,7 @@ export function Contact() {
         </p>
         <div className="contact-actions">
           <Button href={`mailto:${profile.email}`}>Start a conversation</Button>
-          <Button href={profile.cv} download variant="secondary">
+          <Button href={profile.cv} download="Kenneth-Flororita-CV.pdf" variant="secondary">
             Download CV
           </Button>
           <Button href={profile.github} target="_blank" rel="noreferrer" variant="secondary">

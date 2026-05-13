@@ -11,7 +11,7 @@ export function Hero() {
         <p className="hero-lede">{profile.summary}</p>
         <div className="hero-actions" aria-label="Portfolio actions">
           <Button href="#projects">View projects</Button>
-          <Button href={profile.cv} variant="secondary" download>
+          <Button href={profile.cv} variant="secondary" download="Kenneth-Flororita-CV.pdf">
             Download CV
           </Button>
         </div>
