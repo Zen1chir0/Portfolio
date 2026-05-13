@@ -1,0 +1,44 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#17201C" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-50%" width="140%" height="200%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#17201C" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+      <path d="M2 2 L10 6 L2 10" fill="none" stroke="#0D7771" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="420" rx="24" fill="#F7F4EE"/>
+  <rect width="1200" height="420" rx="24" fill="url(#grid)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="36" y="150" width="166" height="92" rx="18" fill="#FFFFFF" fill-opacity="0.78" stroke="#0D7771" stroke-opacity="0.23"/>
+    <text x="119" y="204" text-anchor="middle" fill="#17201C" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Fetch Users</text>
+
+    <rect x="238" y="150" width="166" height="92" rx="18" fill="#FFFFFF" fill-opacity="0.78" stroke="#0D7771" stroke-opacity="0.23"/>
+    <text x="321" y="204" text-anchor="middle" fill="#17201C" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Activity Log</text>
+
+    <rect x="440" y="150" width="190" height="92" rx="18" fill="#FFFFFF" fill-opacity="0.78" stroke="#0D7771" stroke-opacity="0.23"/>
+    <text x="535" y="204" text-anchor="middle" fill="#17201C" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Inactivity Check</text>
+
+    <rect x="666" y="150" width="180" height="92" rx="18" fill="#EAF5EF" fill-opacity="0.94" stroke="#0D7771" stroke-opacity="0.34"/>
+    <text x="756" y="204" text-anchor="middle" fill="#17201C" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Nudge Trigger</text>
+
+    <rect x="882" y="150" width="188" height="92" rx="18" fill="#FFFFFF" fill-opacity="0.78" stroke="#0D7771" stroke-opacity="0.23"/>
+    <text x="976" y="204" text-anchor="middle" fill="#17201C" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Follow-up Event</text>
+
+    <rect x="800" y="292" width="234" height="92" rx="18" fill="#FFFAF2" fill-opacity="0.94" stroke="#D2A13A" stroke-opacity="0.38"/>
+    <text x="917" y="346" text-anchor="middle" fill="#17201C" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="800">Lifecycle Update</text>
+  </g>
+
+  <g stroke="#0D7771" stroke-width="2.6" stroke-linecap="round" stroke-opacity="0.72" marker-end="url(#arrow)">
+    <path d="M214 196 H226"/>
+    <path d="M416 196 H428"/>
+    <path d="M642 196 H654"/>
+    <path d="M858 196 H870"/>
+    <path d="M1078 196 C1150 196 1148 338 1046 338"/>
+  </g>
+</svg>
