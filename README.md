@@ -6,7 +6,7 @@ The site presents selected automation work, sanitized project visuals, and techn
 
 ## Live Demo
 
-Live site: [Add deployment URL here]
+Live site: https://kennethportfolio-iota.vercel.app/
 
 ## Purpose
 
@@ -102,7 +102,7 @@ The goal is to make the site feel like a technical artifact, not only a personal
 Clone the repository:
 
 ```bash
-git clone [Add repository URL here]
+git clone https://github.com/Zen1chir0/Portfolio.git
 cd portfolio
 ```
 
@@ -149,9 +149,9 @@ Future versions may include a Supabase-backed visitor analytics layer and a hidd
 ## Contact
 
 - LinkedIn: https://www.linkedin.com/in/kenneth-flororita-36b870331
-- GitHub: [Add GitHub URL]
+- GitHub: https://github.com/Zen1chir0/Portfolio
 - Email: kennethflororita@gmail.com
-- Portfolio: [Add live URL]
+- Portfolio: https://kennethportfolio-iota.vercel.app/
 
 ## NDA Notice
 
